@@ -1,7 +1,6 @@
 import csv
 import pandas as pd
 
-# remove blank rows : stack overflow
 
 with open('datasets.csv') as input, open('datasets1.csv', 'w', newline='') as output:
     writer = csv.writer(output)
